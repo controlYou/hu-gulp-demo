@@ -1,0 +1,39 @@
+{
+  "name": "hu-gulp-demo",
+  "version": "0.1.0",
+  "description": "this is gulp demo ",
+  "keywords": [
+    "hu-gulp-demo",
+    "zce"
+  ],
+  "homepage": "https://github.com/hu/hu-gulp-demo#readme",
+  "bugs": {
+    "url": "https://github.com/hu/hu-gulp-demo/issues"
+  },
+  "license": "MIT",
+  "author": "GoodHu <1120659687@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hu/hu-gulp-demo.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
